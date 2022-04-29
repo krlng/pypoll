@@ -1,0 +1,53 @@
+# C extensions
+*.so
+
+# File types
+*.egg
+*.egg-info
+*.pickle
+*.pkl
+*.csv
+*.log
+.DS_Store
+
+
+*.parquet
+*.zip
+*.tar%
+*.iml
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage*
+.tox
+report.xml
+nosetests.xml
+
+# Folders
+.cache/*
+.idea
+.ipynb_checkpoints/
+.vscode/
+.pytest_cache/*
+configs
+secrets/*
+models/*
+notebooks/private_notebooks/*
+notebooks/.cache/*
+!.gitkeep
+**/dist/
+**/__pycache__/
+
+
+# Files
+sa_*.json
+project.lock
+training/.elastic
+data
+requirements.txt
+mlruns
+.python-version
+survey.sqlite3
+poetry.lock
